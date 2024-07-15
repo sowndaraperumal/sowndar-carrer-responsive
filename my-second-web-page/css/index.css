@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    background-color: rgb(247, 247, 250);
+    color: #444444;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+    text-decoration:underline;
+    font-weight: 600;
+    color: #222222;
+}
+
+#navbar{
+    padding: 8px;
+    margin: 0;
+}
+#logo{
+   height: 50px;
+    
+}
+h1{
+        
+    text-align: center;
+    color: indigo;
+    font-size: 2.5rem;
+    /* text-shadow:5px 5px gold; */
+   }
+h3 {
+    margin-top: 0px;
+    color: brown;
+    font-size: 1.75rem;
+}
+
+#banner {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; */
+    object-fit: cover;
+    width: 100%;
+    text-align: center;
+
+}
+#description{
+    width: 50%;
+    padding: 0 8px;
+    font-size: 1.25rem;
+}
+#team{
+    width: 50%;
+}
+#teamimg{
+   border-radius: 6px;
+   width: 100%;
+   border: 5px solid darkblue;
+   /* box-shadow: 10px 5px  darkgreen; */
+}
+ .location {
+    color: gray;
+    margin-bottom: 15px;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 8px;
+}
+h2{
+    text-align: center;
+}
+#job{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.job-role{
+    margin-bottom: 0px;
+}
+.apply{
+    float: right;
+    
+}
+a{
+    text-decoration: none;
+    color: #3B82F6;
+}
+a:hover {
+    color: #ca163d !important;
+}
+#footer{
+background-color: #E5E7EB;
+padding: 8px;
+margin-top: 32px;
+text-align: center;
+}
+#footer-link{
+    
+  list-style: none;
+  padding-right: 5px;
+}
+#footer-link li{
+    display: inline;
+    margin: 0 16px;
+  
+   
+}
+
+#copyright{
+    color: grey;
+    font-size: 0.875rem;
+}
+
+#job-section{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 8px;
+}
+#job-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.job-table-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: #BFDBFE;
+    text-align: center;
+    color: #444444;
+}
+.job-table-data-row td{
+    border: 1px solid gray;
+    color: #222222;
+    padding: 8px;
+   
+    
+}
+#job-table tr:nth-child(even){
+    background-color: #EFF6FF;
+}
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 700;
+}
+#application-form input ,select{
+    padding: 4px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border:1px solid gray;
+  
+}
+#application-form  textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+#application-form input:current {
+color: #1D4ED8;
+border-color: #1D4ED8;
+}
+.form-group{
+    margin-top: 16px;
+}
+ .form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+ } .form-group input[type="submit"]{
+   background-color: #3B82F6;
+   color: white;
+   font-weight: 500;
+   padding: 16px 16px 16px 16px;
+   cursor: pointer;
+ }
+ #application-form input:hover,  #application-form input:focus, #application-form select:focus,  #application-form select:hover #application-form textarea:focus,  #application-form textarea:hover  {
+    border-color: #679fdf;
+    outline: none;
+ }
+ 
